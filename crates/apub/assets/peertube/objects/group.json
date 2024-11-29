@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "RsaSignature2017": "https://w3id.org/security#RsaSignature2017"
+    },
+    {
+      "pt": "https://joinpeertube.org/ns#",
+      "sc": "http://schema.org/",
+      "playlists": {
+        "@id": "pt:playlists",
+        "@type": "@id"
+      },
+      "support": {
+        "@type": "sc:Text",
+        "@id": "pt:support"
+      },
+      "icons": "as:icon"
+    }
+  ],
+  "type": "Group",
+  "id": "https://peertube.stream/video-channels/vu",
+  "following": "https://peertube.stream/video-channels/vu/following",
+  "followers": "https://peertube.stream/video-channels/vu/followers",
+  "playlists": "https://peertube.stream/video-channels/vu/playlists",
+  "inbox": "https://peertube.stream/video-channels/vu/inbox",
+  "outbox": "https://peertube.stream/video-channels/vu/outbox",
+  "preferredUsername": "vu",
+  "url": "https://peertube.stream/video-channels/vu",
+  "name": "VU",
+  "endpoints": {
+    "sharedInbox": "https://peertube.stream/inbox"
+  },
+  "publicKey": {
+    "id": "https://peertube.stream/video-channels/vu#main-key",
+    "owner": "https://peertube.stream/video-channels/vu",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtcWpN7efQx5C7ecWkw3r\nX4ViPy/bl3d3iyVLyP6z/3+WAUKJxqR+QKlNzxM7NglzB0B48NYu2cg4iuwKkSK9\ntrfMC/Ze0H10Wo/5kUH5YQKzLo4syHOuuM+1rbZFBbzVFwk4k0qqLFTXQ+Y6WNSS\nG9OlFYZNpRaUkgF8Q/KCsngn68qsZ0gLly9FJb+6+j3IppLJNXrBpFB5qulWibL+\neN+3XMnaTm6ge6X+rFti5r6dh10grL0KU/eZKmGyadgdwYdvR/LLtBWwFIwSJShk\nuIPhcz2zbkwrV3AixLe76TLGXX5M9qczfsVYLupyU7TwPlFM2ENDtDdfp41sWaZa\nxQIDAQAB\n-----END PUBLIC KEY-----"
+  },
+  "published": "2020-12-10T16:07:08.406Z",
+  "icon": [
+    {
+      "type": "Image",
+      "mediaType": "image/jpeg",
+      "height": 48,
+      "width": 48,
+      "url": "https://peertube.stream/lazy-static/avatars/45ec87d5-c8ec-4fcf-948f-d5a928b56496.jpg"
+    },
+    {
+      "type": "Image",
+      "mediaType": "image/jpeg",
+      "height": 120,
+      "width": 120,
+      "url": "https://peertube.stream/lazy-static/avatars/3296c098-abbb-4fda-a67a-ab88e447ca19.jpg"
+    }
+  ],
+  "image": {
+    "type": "Image",
+    "mediaType": "image/jpeg",
+    "height": 317,
+    "width": 1920,
+    "url": "https://peertube.stream/lazy-static/banners/550c0541-3021-4d4b-8654-54d0c4cda96d.jpg"
+  },
+  "summary": "VU c'est du lundi au samedi sur France 5 à 20h00 \nRetrouvez les meilleurs moments de la télévision, en 6 minutes.\n\nChaîne PeerTube non-officielle.",
+  "support": "Suivre VU :\n- Twitter : https://twitter.com/vufrancetv\n- Facebook :https://www.facebook.com/vufrancetv/\n- Site : https://www.france.tv/france-5/vu/",
+  "attributedTo": [
+    {
+      "type": "Person",
+      "id": "https://peertube.stream/accounts/createurs"
+    }
+  ]
+}
